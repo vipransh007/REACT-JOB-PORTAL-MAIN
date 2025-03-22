@@ -1,0 +1,17 @@
+@keyframes colorCycle {
+    0% { color: #ff4757; }
+    25% { color: #ffa502; }
+    50% { color: #2ed573; }
+    75% { color: #1e90ff; }
+    100% { color: #ff4757; }
+  }
+  
+  .animated-text {
+    font-size: 5rem;
+    font-weight: bold;
+    animation: colorCycle 5s infinite;
+    text-align: center;
+    margin-left: 12rem;
+    transition: all 0.5s ease-in-out;
+  }
+  
